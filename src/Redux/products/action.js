@@ -23,7 +23,7 @@ const fetchDataFailure = (payload) => {
 const fetchData = (payload) => {
     return (dispatch) => {
         dispatch(fetchDataRequest())
-        Axios.get("/products")
+        Axios.get("/products", { params: { ...payload } })
             .then((res) => { return dispatch(fetchDataSuccess(res.data)) })
             .catch((err) => { return dispatch(fetchDataFailure(err.data)) })
     }
