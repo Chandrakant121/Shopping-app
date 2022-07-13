@@ -4,6 +4,7 @@ const initialState = {
     products: [],
     error: "",
     currentProduct: {},
+    cart: [],
     loading: false
 }
 
@@ -54,6 +55,54 @@ const reducer = (state = initialState, action) => {
                 error: payload,
                 loading: false
             }
+
+        // Cart
+        case types.ADD_PRODUCT_CART__REQUEST:
+            return {
+                ...state,
+                error: "",
+                loading: true
+            }
+
+        case types.ADD_PRODUCT_CART__SUCCESS:
+            return {
+                ...state,
+                error: "",
+                cart: [...state.cart, payload],
+                loading: false
+            }
+
+        case types.ADD_PRODUCT_CART__FAILURE:
+            return {
+                ...state,
+                error: payload,
+                loading: false
+            }
+
+        // Counter show in cart Icon
+
+        case types.FETCH_CART_REQUEST:
+            return {
+                ...state,
+                error: "",
+                loading: true
+            }
+
+        case types.FETCH_CART_SUCCESS:
+            return {
+                ...state,
+                error: "",
+                cart: [...payload],
+                loading: false
+            }
+
+        case types.FETCH_DATA_FAILURE:
+            return {
+                ...state,
+                error: payload,
+                loading: false
+            }
+
 
         default:
             return state

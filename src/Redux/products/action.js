@@ -59,7 +59,66 @@ const getSingleProduct = (id) => (dispatch) => {
 
 }
 
+// Add to cart
+
+const addProductCartRequest = (payload) => {
+    return {
+        type: types.ADD_PRODUCT_CART__REQUEST,
+        payload
+    }
+}
+const addProductCartSuccess = (payload) => {
+    return {
+        type: types.ADD_PRODUCT_CART__SUCCESS,
+        payload
+    }
+}
+const addProductCartFailure = (payload) => {
+    return {
+        type: types.ADD_PRODUCT_CART__FAILURE,
+        payload
+    }
+}
+
+const addProductCart = (product) => (dispatch) => {
+    dispatch(addProductCartRequest())
+    Axios.post("/cart", product)
+        .then((req) => { return dispatch(addProductCartSuccess(req.data)) })
+        .catch((err) => { return dispatch(addProductCartFailure(err.data)) })
+}
+
+// Cart fetching and counter show
+
+const fetchCartRequest = (payload) => {
+    return {
+        type: types.FETCH_CART_REQUEST,
+        payload
+    }
+}
+const fetchCartSuccess = (payload) => {
+    return {
+        type: types.FETCH_CART_SUCCESS,
+        payload
+    }
+}
+const fetchCartFailure = (payload) => {
+    return {
+        type: types.FETCH_CART_FAILURE,
+        payload
+    }
+}
+
+
+const fetchCart = (payload) => (dispatch) => {
+    dispatch(fetchCartRequest())
+    Axios.get("/cart")
+        .then((req) => { return dispatch(fetchCartSuccess(req.data)) })
+        .catch((err) => { return dispatch(fetchCartFailure(err.data)) })
+
+}
 
 
 
-export { fetchData, getSingleProduct }
+
+
+export { fetchData, getSingleProduct, addProductCart, fetchCart }

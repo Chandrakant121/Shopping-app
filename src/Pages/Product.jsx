@@ -20,7 +20,7 @@ import {
 import { StarIcon } from '@chakra-ui/icons';
 import { useParams } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux/es/exports';
-import { getSingleProduct } from '../Redux/products/action';
+import { addProductCart, getSingleProduct } from '../Redux/products/action';
 
 import { MdLocalShipping } from 'react-icons/md';
 
@@ -36,6 +36,12 @@ const Product = () => {
         }
     }, [dispatch, id])
     // console.log(currentProduct)
+
+    const addToCartHandler = () => {
+        currentProduct && dispatch(addProductCart(currentProduct))
+    }
+
+
     return (
         <Container maxW={'7xl'}>
             <SimpleGrid
@@ -111,7 +117,9 @@ const Product = () => {
                         _hover={{
                             transform: 'translateY(2px)',
                             boxShadow: 'lg',
-                        }}>
+                        }}
+                        onClick={addToCartHandler}
+                    >
                         Add to cart
                     </Button>
 
