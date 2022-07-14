@@ -9,9 +9,10 @@ import {
     useColorModeValue,
     useBreakpointValue,
     useDisclosure,
+    Link,
     Icon
 } from '@chakra-ui/react';
-
+import { Link as RouterLink } from "react-router-dom"
 import { BsCart3 } from "react-icons/bs"
 
 import {
@@ -69,12 +70,16 @@ const Navbar = () => {
                     direction={'row'}
                     spacing={6}>
 
-                    <Box position="relative" padding="0 0.5rem ">
+                    <Link as={RouterLink} to="/cart">
 
-                        <CartCounter />
-                        <Icon as={BsCart3} boxSize="2rem" />
+                        <Box position="relative" padding="0 0.5rem ">
 
-                    </Box>
+                            <CartCounter />
+                            <Icon as={BsCart3} boxSize="2rem" />
+
+                        </Box>
+
+                    </Link>
 
                     <Profile />
                 </Stack>
