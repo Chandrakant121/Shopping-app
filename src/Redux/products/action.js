@@ -170,8 +170,40 @@ const addOrder = (payload) => (dispatch) => {
     for (let product of payload) {
         product && orderPayload.push(Axios.post("/orders", product))
     }
-    Promise.all(orderPayload).then((res) => { return dispatch(addOrderSuccess(res)) })
-        .catch((err) => { return dispatch(addOrderFailure(err)) })
+    Promise.all(orderPayload).then((res) => { return dispatch(addOrderSuccess()) })
+        .then(() => dispatch(emptyCart(payload)))
+        .catch((err) => { return dispatch(addOrderFailure()) })
 }
 
-export { fetchData, getSingleProduct, addProductCart, fetchCart, deleteProductCart, addOrder }
+// empty card after checkout
+
+const emptyCartRequest = () => {
+    return {
+        type: types.EMPTY_CART_REQUEST
+    }
+}
+
+const emptyCartSuccess = () => {
+    return {
+        type: types.EMPTY_CART_SUCCESS
+    }
+}
+
+const emptyCartFailure = () => {
+    return {
+        type: types.EMPTY_CART_FAILURE
+    }
+}
+
+const emptyCart = (payload) => (dispatch) => {
+    dispatch(emptyCartRequest())
+    const deleteOrders = [];
+    for (let obj of payload) {
+        let temp = dispatch(deleteProductCart(obj.id));
+        deleteOrders.push(temp)
+    }
+    Promise.all(deleteOrders).then((res) => { return emptyCartSuccess() })
+        .catch((err) => { return dispatch(emptyCartFailure()) })
+}
+
+export { fetchData, getSingleProduct, addProductCart, fetchCart, deleteProductCart, addOrder, emptyCart }
