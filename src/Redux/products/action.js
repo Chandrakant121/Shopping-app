@@ -30,7 +30,7 @@ const fetchData = (payload) => {
 
 }
 
-//========================
+//===========================================
 
 const getSingleProductRequest = (payload) => {
     return {
@@ -117,8 +117,34 @@ const fetchCart = (payload) => (dispatch) => {
 
 }
 
+// remove from cart
+
+const deleteProductCartRequest = (payload) => {
+    return {
+        type: types.REMOVE_PRODUCT_CART_REQUEST,
+        payload
+    }
+}
+const deleteProductCartSuccess = (payload) => {
+    return {
+        type: types.REMOVE_PRODUCT_CART_SUCCESS,
+        payload
+    }
+}
+const deleteProductFailure = (payload) => {
+    return {
+        type: types.REMOVE_PRODUCT_CART_FAILURE,
+        payload
+    }
+}
+
+const deleteProductCart = (id) => (dispatch) => {
+    dispatch(deleteProductCartRequest())
+    Axios.delete(`/cart/${id}`).
+        then((req) => { return dispatch(deleteProductCartSuccess(req.data)) })
+        .then(() => dispatch(fetchCart()))
+        .catch((err) => { return dispatch(deleteProductFailure(err.data)) })
+}
 
 
-
-
-export { fetchData, getSingleProduct, addProductCart, fetchCart }
+export { fetchData, getSingleProduct, addProductCart, fetchCart, deleteProductCart }

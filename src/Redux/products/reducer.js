@@ -103,6 +103,20 @@ const reducer = (state = initialState, action) => {
                 loading: false
             }
 
+        // Delete product from cart
+        case types.REMOVE_PRODUCT_CART_REQUEST:
+            return {
+                ...state,
+                error: "",
+                loading: true
+            }
+
+        case types.REMOVE_PRODUCT_CART_FAILURE:
+            return {
+                ...state,
+                error: payload,
+                loading: false
+            }
 
         default:
             return state
