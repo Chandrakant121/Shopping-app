@@ -16,7 +16,6 @@ export default function Checkout({ cart, checkoutHandler }) {
     return (
         <Box>
             <Button
-                onClick={onOpen}
                 marginBottom="100px"
                 rounded={'none'}
                 w={'full'}
@@ -29,7 +28,7 @@ export default function Checkout({ cart, checkoutHandler }) {
                 _hover={{
                     transform: 'translateY(2px)',
                     boxShadow: 'lg',
-                }} >
+                }} onClick={onOpen} >
                 Checkout
             </Button>
 
@@ -61,7 +60,7 @@ export default function Checkout({ cart, checkoutHandler }) {
 
                     </ModalBody>
                     <ModalFooter>
-                        <Button colorScheme='blue' mr={3} onClick={() => checkoutHandler()}>
+                        <Button colorScheme='blue' mr={3} onClick={checkoutHandler}>
                             Confirm
                         </Button>
                     </ModalFooter>

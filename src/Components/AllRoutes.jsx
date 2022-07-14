@@ -4,6 +4,7 @@ import Cart from '../Pages/Cart'
 import Homepage from '../Pages/Homepage'
 import Products from '../Pages/Products'
 import Product from '../Pages/product'
+import Orders from '../Pages/Orders'
 
 const AllRoutes = () => {
     return <Routes>
@@ -11,6 +12,7 @@ const AllRoutes = () => {
         <Route path='/products' element={<Products />} />
         <Route path='/product/:id' element={<Product />} />
         <Route path='/cart' element={<Cart />} />
+        <Route path='/orders/' element={<Orders />} />
     </Routes>
 }
 
