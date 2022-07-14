@@ -3,6 +3,8 @@ import { Box, Heading, Stack, Image, Text, Button, useColorModeValue, } from "@c
 import { DeleteIcon } from "@chakra-ui/icons"
 import { useDispatch, useSelector } from 'react-redux/es/exports'
 import { deleteProductCart } from '../Redux/products/action'
+import Checkout from "../Components/Checkout"
+import { addOrder } from '../Redux/products/action'
 
 
 const Cart = () => {
@@ -14,6 +16,13 @@ const Cart = () => {
     const removeProduct = (id) => {
         dispatch(deleteProductCart(id))
     }
+
+    const checkoutHandler = () => {
+        dispatch(addOrder(cart))
+    }
+
+
+
     return (
         <Box>
             <Heading as="h2" size="xl" textAlign="center" >
@@ -30,25 +39,7 @@ const Cart = () => {
                     removeProduct={removeProduct}
                 />
             })}
-            <Button
-                marginBottom="100px"
-                rounded={'none'}
-                w={'full'}
-                mt={8}
-                size={'lg'}
-                py={'7'}
-                bg={useColorModeValue('gray.900', 'gray.50')}
-                color={useColorModeValue('white', 'gray.900')}
-                textTransform={'uppercase'}
-                _hover={{
-                    transform: 'translateY(2px)',
-                    boxShadow: 'lg',
-                }}
-
-            >
-                Checkout
-            </Button>
-
+            <Checkout cart={cart} checkoutHandler={checkoutHandler} />
         </Box>
     )
 }
