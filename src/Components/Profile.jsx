@@ -6,8 +6,9 @@ import {
     MenuItem,
     Flex,
     Button,
-    Avatar,
+    Avatar, Link
 } from '@chakra-ui/react'
+import { Link as RouterLink } from "react-router-dom"
 
 const Profile = () => {
     return (
@@ -23,7 +24,10 @@ const Profile = () => {
                 </MenuButton>
                 <MenuList>
                     <MenuItem>Cart</MenuItem>
-                    <MenuItem>Your Orders</MenuItem>
+                    <Link to="/orders" as={RouterLink}>
+                        <MenuItem>Your Orders</MenuItem>
+                    </Link>
+
                     <MenuItem>Login</MenuItem>
                     <MenuItem>Logout</MenuItem>
                 </MenuList>

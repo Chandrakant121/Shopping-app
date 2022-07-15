@@ -206,4 +206,33 @@ const emptyCart = (payload) => (dispatch) => {
         .catch((err) => { return dispatch(emptyCartFailure()) })
 }
 
-export { fetchData, getSingleProduct, addProductCart, fetchCart, deleteProductCart, addOrder, emptyCart }
+// orders actions
+const fetchOrdersRequest = (payload) => {
+    return {
+        type: types.FETCH_ORDERS_REQUEST,
+        payload
+    }
+}
+const fetchOrdersSuccess = (payload) => {
+    return {
+        type: types.FETCH_ORDERS_SUCCESS,
+        payload
+    }
+}
+const fetchOrdersFailure = (payload) => {
+    return {
+        type: types.FETCH_ORDERS_FAILURE,
+        payload
+    }
+}
+
+const fetchOrders = (payload) => (dispatch) => {
+    dispatch(fetchOrdersRequest())
+    Axios.get("/orders")
+        .then((res) => { return dispatch(fetchOrdersSuccess(res.data)) })
+        .catch((err) => { return dispatch(fetchOrdersFailure(err.data)) })
+
+}
+
+
+export { fetchData, getSingleProduct, addProductCart, fetchCart, deleteProductCart, addOrder, emptyCart, fetchOrders }
