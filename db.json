@@ -2,23 +2,83 @@
   "products": [
     {
       "id": 1,
-      "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+      "title": "Italian Rhombus Print Loop II Laptop Bag",
       "price": 109.95,
-      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "description": "The Genuine Leather portfolio bag Loop II can be a classy and stylish companion to carry to the office. The distinctive outlook and fantastic built will definitely give an edgy look to your personality. Besides, the front pocket of the Loop II folio has been crafted out of genuine and most premium Italian leather.",
       "category": "bags",
-      "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+      "image": "https://cdn.shopify.com/s/files/1/0073/3537/9013/products/WhatsAppImage2022-03-12at12.21.02PM_600x.jpg?v=1647086906",
       "rating": {
         "rate": 3.9,
         "count": 120
       }
     },
     {
-      "id": 2,
-      "title": "Mens Casual Premium Slim Fit T-Shirts ",
-      "price": 22.3,
+      "id": 33,
+      "title": "Mens Casual Premium Slim Fit Shirts ",
+      "price": 37.9,
       "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
       "category": "men's clothing",
-      "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+      "image": "https://img3.junaroad.com/uiproducts/18329448/pri_175_p-1649763587.jpg",
+      "rating": {
+        "rate": 4.1,
+        "count": 259
+      }
+    },
+    {
+      "id": 34,
+      "title": "Mens Casual Premium Slim Fit Shirts ",
+      "price": 36.00,
+      "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
+      "category": "men's clothing",
+      "image": "https://img.clasf.in/2021/04/15/Buy-Branded-Casual-Shirts-for-Men-at-Mufti-clothing-20210415082928.2186430015.jpg",
+      "rating": {
+        "rate": 4.1,
+        "count": 259
+      }
+    },
+    {
+      "id": 35,
+      "title": "Mens Casual Premium Slim Fit Shirts ",
+      "price": 38.00,
+      "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
+      "category": "men's clothing",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSXxSF5YIs6Dta0PxKhEEiKTtoYydCYsWsUw&usqp=CAU",
+      "rating": {
+        "rate": 4.1,
+        "count": 259
+      }
+    },
+    {
+      "id": 36,
+      "title": "Mens Casual Premium Slim Fit T-Shirts ",
+      "price": 37.00,
+      "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
+      "category": "men's clothing",
+      "image": "https://imgmedia.lbb.in/79388886_158353542095805_4443715209734003707_n_1582114227789.jpg",
+      "rating": {
+        "rate": 4.1,
+        "count": 259
+      }
+    },
+    {
+      "id": 37,
+      "title": "Mens Casual Premium Slim Fit Shirts ",
+      "price": 39.99,
+      "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
+      "category": "men's clothing",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPOEDFHdjz-Zuv-VrIraieXEWnORMlc9Xybb0rpQXieOJbnYU2ajJ0NMM8ckQbgiBpAzE&usqp=CAU",
+      "rating": {
+        "rate": 4.1,
+        "count": 259
+      }
+    },
+    {
+      "id": 38,
+      "title": "Mens Casual Premium Slim Fit T-Shirts ",
+      "price": 41.00,
+      "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
+      "category": "men's clothing",
+      "image": "https://img.mensxp.com/media/content/2018/Oct/3-mufti-kartik-aaryan-1539849720.jpg?w=640&h=935",
       "rating": {
         "rate": 4.1,
         "count": 259
@@ -97,6 +157,30 @@
       }
     },
     {
+      "id": 13,
+      "title": "Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin",
+      "price": 599,
+      "description": "21. 5 inches Full HD (1920 x 1080) widescreen IPS display And Radeon free Sync technology. No compatibility for VESA Mount Refresh Rate: 75Hz - Using HDMI port Zero-frame design | ultra-thin | 4ms response time | IPS panel Aspect ratio - 16: 9. Color Supported - 16. 7 million colors. Brightness - 250 nit Tilt angle -5 degree to 15 degree. Horizontal viewing angle-178 degree. Vertical viewing angle-178 degree 75 hertz",
+      "category": "electronics",
+      "image": "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg",
+      "rating": {
+        "rate": 2.9,
+        "count": 250
+      }
+    },
+    {
+      "id": 14,
+      "title": "Samsung 49-Inch 144Hz Curved Gaming Monitor Super Ultrawide  QLED ",
+      "price": 999.99,
+      "description": "49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen side by side QUANTUM DOT (QLED) TECHNOLOGY, HDR support and factory calibration provides stunningly realistic and accurate color and contrast 144HZ HIGH REFRESH RATE and 1ms ultra fast response time work to eliminate motion blur, ghosting, and reduce input lag",
+      "category": "electronics",
+      "image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
+      "rating": {
+        "rate": 2.2,
+        "count": 140
+      }
+    },
+    {
       "id": 9,
       "title": "WD 2TB Elements Portable External Hard Drive - USB 3.0 ",
       "price": 64,
@@ -142,30 +226,6 @@
       "rating": {
         "rate": 4.8,
         "count": 400
-      }
-    },
-    {
-      "id": 13,
-      "title": "Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin",
-      "price": 599,
-      "description": "21. 5 inches Full HD (1920 x 1080) widescreen IPS display And Radeon free Sync technology. No compatibility for VESA Mount Refresh Rate: 75Hz - Using HDMI port Zero-frame design | ultra-thin | 4ms response time | IPS panel Aspect ratio - 16: 9. Color Supported - 16. 7 million colors. Brightness - 250 nit Tilt angle -5 degree to 15 degree. Horizontal viewing angle-178 degree. Vertical viewing angle-178 degree 75 hertz",
-      "category": "electronics",
-      "image": "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg",
-      "rating": {
-        "rate": 2.9,
-        "count": 250
-      }
-    },
-    {
-      "id": 14,
-      "title": "Samsung 49-Inch 144Hz Curved Gaming Monitor Super Ultrawide  QLED ",
-      "price": 999.99,
-      "description": "49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen side by side QUANTUM DOT (QLED) TECHNOLOGY, HDR support and factory calibration provides stunningly realistic and accurate color and contrast 144HZ HIGH REFRESH RATE and 1ms ultra fast response time work to eliminate motion blur, ghosting, and reduce input lag",
-      "category": "electronics",
-      "image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
-      "rating": {
-        "rate": 2.2,
-        "count": 140
       }
     },
     {
@@ -242,18 +302,6 @@
     },
     {
       "id": 21,
-      "title": "POLESTAR Vintage 32 L College/ School/ Office/ Casual/ Travel Backpack",
-      "price": 579,
-      "description": "POLESTAR Vintage” has unique style and utility requirement. Ergonomically designed with padded base. This Backpack is spacious, lightweight and easy to carry. It is an ideal backpack for daily use, Office, School, College, travel etc.",
-      "category": "bags",
-      "image": "https://m.media-amazon.com/images/I/818C-vmevNL._UX679_.jpg",
-      "rating": {
-        "rate": 4,
-        "count": 315
-      }
-    },
-    {
-      "id": 22,
       "title": "F Gear Luxur Brown 25 liter Laptop Backpack (2404)",
       "price": 1032,
       "description": "A fashionable laptop backpack. This full-featured pack makes space for everything essential with multiple zip pockets on the exterior, plus a ready-to-go interior with padded laptop compartment and other storage solutions. Pattern: Solid. Laptop Size: 16",
@@ -262,6 +310,18 @@
       "rating": {
         "rate": 4.4,
         "count": 165
+      }
+    },
+    {
+      "id": 22,
+      "title": "Markas Portfolio Bag",
+      "price": 579,
+      "description": "The aristocratic Markas Folio Bag can be fantastic as well as quintessential item for the corporate. The minimalist quilted design and the quality of the leather will speak for itself. You can carry your laptop, I Pad, notebooks, official documents and all the essential items in it. This bag can be ideal to carry in business trips as it has a luggage strap pocket with which you can fix it in your trolley stands. Our Folio Bag will definitely be the ideal option for the man who loves distinction.",
+      "category": "bags",
+      "image": "https://cdn.shopify.com/s/files/1/0073/3537/9013/products/7_1_9ea6d2cb-a853-489c-8f8b-0de4ac4f8195_800x.jpg?v=1627717815",
+      "rating": {
+        "rate": 4,
+        "count": 315
       }
     },
     {
@@ -299,45 +359,104 @@
         "rate": 4,
         "count": 29
       }
+    },
+    {
+      "id": 26,
+      "title": "Legacy Duffle Bag (Vintage Brown)",
+      "price": 779,
+      "description": "The Legacy Duffle bag is truly an heirloom product, one of the most sophisticated and sought after traditional duffle bags in our range. Completely crafted out of thick high-quality leather, brass hardware, copper rivets and thread, the bag is totally unlined and visual delight from both inside and out.",
+      "category": "bags",
+      "image": "https://cdn.shopify.com/s/files/1/0242/8947/6671/products/9_b1f7e252-7e40-46ae-8a59-f167ef5a20f8_900x.jpg?v=1656493916",
+      "rating": {
+        "rate": 4,
+        "count": 315
+      }
+    },
+    {
+      "id": 27,
+      "title": "STARTTID",
+      "price": 529,
+      "description": "STARTTID bags are packed with smart functions that make short trips easier for you and the whole family. They are designed for people on the go – so that everyone always has what they need with them.",
+      "category": "bags",
+      "image": "https://www.ikea.com/in/en/images/products/starttid-backpack-grey__1005962_pe825641_s5.jpg?f=s",
+      "rating": {
+        "rate": 4,
+        "count": 315
+      }
+    },
+    {
+      "id": 28,
+      "title": "STARTTID",
+      "price": 570,
+      "description": "STARTTID bags are packed with smart functions that make short trips easier for you and the whole family. They are designed for people on the go – so that everyone always has what they need with them.",
+      "category": "bags",
+      "image": "https://www.ikea.com/in/en/images/products/starttid-backpack-grey__1005962_pe825641_s5.jpg?f=s",
+      "rating": {
+        "rate": 4,
+        "count": 315
+      }
+    },
+    {
+      "id": 29,
+      "title": "FENDACE LA MEDUSA MEDIUM HANDBAG",
+      "price": 559,
+      "description": "A creative dialogue between Kim Jones and Donatella Versace, Versace's signature La Medusa handbag is reimagined in the Fendace Gold Baroque print, adorned by a Medusa plaque and Fendi hardware at the flap. The versatile style can be carried in-hand or worn crossbody using the interchangeable chain and leather shoulder straps.",
+      "category": "bags",
+      "image": "https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw41de8ed4/original/90_DBFI039-1A03697_5V04V_26_FendaceLaMedusaMediumHandbag-LaMedusaBag-versace-online-store_0_8.jpg?sw=850&sh=1200&sm=fit",
+      "rating": {
+        "rate": 4,
+        "count": 315
+      }
+    },
+    {
+      "id": 30,
+      "title": "FENDACE BAGUETTE SHOULDER BAG",
+      "price": 599,
+      "description": "Seen through the eyes of Donatella Versace, Fendi's Baguette shoulder bag is reimagined with Very Versace elements in the latest Fendi by Versace capsule collection. In a jacquard rendition of Versace's Fendace Denim Patchwork print, La Medusa hardware accentuates the FF enamel buckle. A detachable leather top handle and an additional shoulder strap allow for over the shoulder or crossbody wear.",
+      "category": "bags",
+      "image": "https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw7fb96d5a/original/90_1006679-1A04638_2D24F_26_FendaceBaguetteShoulderBag-ShoulderBags-versace-online-store_0_8.jpg?sw=748&sh=1050&sm=fit&sfrm=jpg",
+      "rating": {
+        "rate": 4,
+        "count": 315
+      }
+    },
+    {
+      "id": 31,
+      "title": "DailyObjects Wytchy Trapeze Crossbody Bag",
+      "price": 959,
+      "description": "Made Of Durable Pu Leather With A Photo Quality Design Print. Inner Polyester Lining. Top Zip Closure. Interior Has 2 Open Pockets Alongside 1 Zip Pocket. Genuine Ykk Zipper. Footed Bottom. Detachable And Adjustable Faux Leather Strap. Backed By Our 2 Year Warranty.",
+      "category": "bags",
+      "image": "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-960,/pub/media/catalog/product/5/0/50295721-nyk-fas.png?rnd=20200526195200",
+      "rating": {
+        "rate": 4,
+        "count": 315
+      }
+    },
+    {
+      "id": 32,
+      "title": "DailyObjects How To Chill Like A Cat - Trapeze Crossbody Bag",
+      "price": 1959,
+      "description": "Made Of Durable Pu Leather With A Photo Quality Design Print. Inner Polyester Lining. Top Zip Closure. Interior Has 2 Open Pockets Alongside 1 Zip Pocket. Genuine Ykk Zipper. Footed Bottom. Detachable And Adjustable Faux Leather Strap. Backed By Our 2 Year Warranty.",
+      "category": "bags",
+      "image": "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-960,/pub/media/catalog/product/9/8/9814a8fNY_FDAIOB02234_1.jpg?rnd=20200526195200",
+      "rating": {
+        "rate": 4,
+        "count": 315
+      }
+    },
+    {
+      "id": 2,
+      "title": "Mens Casual Premium Slim Fit T-Shirts ",
+      "price": 22.3,
+      "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
+      "category": "men's clothing",
+      "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+      "rating": {
+        "rate": 4.1,
+        "count": 259
+      }
     }
   ],
   "cart": [],
-  "orders": [
-    {
-      "id": 7,
-      "title": "White Gold Plated Princess",
-      "price": 9.99,
-      "description": "Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her. Gifts to spoil your love more for Engagement, Wedding, Anniversary, Valentine's Day...",
-      "category": "jewelery",
-      "image": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
-      "rating": {
-        "rate": 3,
-        "count": 400
-      }
-    },
-    {
-      "id": 9,
-      "title": "WD 2TB Elements Portable External Hard Drive - USB 3.0 ",
-      "price": 64,
-      "description": "USB 3.0 and USB 2.0 Compatibility Fast data transfers Improve PC Performance High Capacity; Compatibility Formatted NTFS for Windows 10, Windows 8.1, Windows 7; Reformatting may be required for other operating systems; Compatibility may vary depending on user’s hardware configuration and operating system",
-      "category": "electronics",
-      "image": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
-      "rating": {
-        "rate": 3.3,
-        "count": 203
-      }
-    },
-    {
-      "id": 1,
-      "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
-      "price": 109.95,
-      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
-      "category": "bags",
-      "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
-      "rating": {
-        "rate": 3.9,
-        "count": 120
-      }
-    }
-  ]
+  "orders": []
 }
