@@ -10,7 +10,7 @@ import {
     useBreakpointValue,
     useDisclosure,
     Link,
-    Icon
+    Icon, Heading, Button
 } from '@chakra-ui/react';
 import { Link as RouterLink } from "react-router-dom"
 import { BsCart3 } from "react-icons/bs"
@@ -53,20 +53,14 @@ const Navbar = () => {
                 </Flex>
                 <Flex flex={{ base: 1 }} justify={{ base: 'center', md: 'start' }}>
                     <Link as={RouterLink} to="/">
-                        <Text
-                            textAlign={useBreakpointValue({ base: 'center', md: 'left' })}
-                            fontFamily={'heading'}
-                            color={useColorModeValue('gray.800', 'white')}>
-                            Logo
-                        </Text>
+                        <Heading color={"black"}
+                            as="h1"> E-Shop</Heading>
                     </Link>
-
 
                     <Flex display={{ base: 'none', md: 'flex' }} ml={10}>
                         {/* <DesktopNav /> */}
                     </Flex>
                 </Flex>
-
                 <Stack
                     flex={{ base: 1, md: 0 }}
                     justify={'flex-end'}
@@ -74,19 +68,15 @@ const Navbar = () => {
                     spacing={6}>
 
                     <Link as={RouterLink} to="/cart">
-
                         <Box position="relative" padding="0 0.5rem ">
-
                             <CartCounter />
                             <Icon as={BsCart3} boxSize="2rem" />
-
                         </Box>
-
                     </Link>
-
                     <Profile />
                 </Stack>
             </Flex>
+
 
             <Collapse in={isOpen} animateOpacity>
                 {/* <MobileNav /> */}

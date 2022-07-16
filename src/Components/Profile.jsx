@@ -23,6 +23,10 @@ const Profile = () => {
                     <Avatar name='Dan Abrahmov' src='https://bit.ly/dan-abramov' />
                 </MenuButton>
                 <MenuList>
+                    <Link as={RouterLink} to="/products">
+                        <MenuItem>Products</MenuItem>
+                    </Link>
+
                     <Link to="/cart" as={RouterLink}>
                         <MenuItem>Cart</MenuItem>
                     </Link>
@@ -35,11 +39,9 @@ const Profile = () => {
                         <MenuItem>Login</MenuItem>
                     </Link>
 
-                    <Link to="/logout" as={RouterLink}>
-                        <MenuItem>Logout</MenuItem>
+                    <Link to="/signup" as={RouterLink}>
+                        <MenuItem>Signup</MenuItem>
                     </Link>
-
-
                 </MenuList>
             </Menu>
         </Flex>
