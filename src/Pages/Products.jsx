@@ -9,12 +9,15 @@ import { useSelector, useDispatch } from 'react-redux'
 import { fetchData } from '../Redux/products/action'
 import { useSearchParams } from 'react-router-dom'
 import ProductSimple from '../Components/ProductSimple'
+import { useNavigate } from 'react-router-dom'
 
 
 const Products = () => {
     const products = useSelector((store) => { return store.ecommerceData.products })
     // console.log(products)
     const dispatch = useDispatch()
+    const navigate = useNavigate()
+
     const [searchParams] = useSearchParams()
 
     useEffect(() => {
@@ -39,7 +42,10 @@ const Products = () => {
                     {products.map((product) => {
                         return <ProductSimple
                             key={product.id} image={product.image}
-                            title={product.title} price={product.price} />
+                            title={product.title} price={product.price}
+                            // onClick={() => navigate(`/product/${id}`)}
+                            onclick={() => navigate(`/product/${product.id}`)}
+                        />
                     })}
                 </Flex>
 

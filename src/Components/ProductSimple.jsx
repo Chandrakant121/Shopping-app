@@ -10,10 +10,10 @@ import {
     Image,
 } from "@chakra-ui/react"
 
-export default function ProductSimple({ image, title, price }) {
+export default function ProductSimple({ image, title, price, onclick }) {
     return (
         <Center py={12}>
-            <Box
+            <Box onClick={onclick}
                 role={'group'}
                 p={6}
                 maxW={'330px'}
@@ -68,6 +68,6 @@ export default function ProductSimple({ image, title, price }) {
                     </Stack>
                 </Stack>
             </Box>
-        </Center>
+        </Center >
     );
 }
