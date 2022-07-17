@@ -37,7 +37,20 @@ const Navbar = () => {
                 borderBottom={1}
                 borderStyle={'solid'}
                 borderColor={useColorModeValue('gray.200', 'gray.900')}
-                align={'center'}>
+                align={'center'}
+
+
+                // position="fixed"
+                // top={0}
+                // w="full"
+                // overflowY="hidden"
+                transition="box-shadow 0.2s"
+                backgroundColor={"yellow.400"}
+                border="2px solid white"
+                height={"70px"}
+                borderBottomWidth={2}
+            >
+
                 <Flex
                     flex={{ base: 1, md: 'auto' }}
                     ml={{ base: -2 }}
@@ -81,7 +94,7 @@ const Navbar = () => {
             <Collapse in={isOpen} animateOpacity>
                 {/* <MobileNav /> */}
             </Collapse>
-        </Box>
+        </Box >
     );
 }
 

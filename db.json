@@ -458,6 +458,30 @@
         "rate": 2.6,
         "count": 235
       }
+    },
+    {
+      "id": 28,
+      "title": "Italian Rhombus Print Loop II Laptop Bag",
+      "price": 109.95,
+      "description": "The Genuine Leather portfolio bag Loop II can be a classy and stylish companion to carry to the office. The distinctive outlook and fantastic built will definitely give an edgy look to your personality. Besides, the front pocket of the Loop II folio has been crafted out of genuine and most premium Italian leather.",
+      "category": "bags",
+      "image": "https://cdn.shopify.com/s/files/1/0073/3537/9013/products/WhatsAppImage2022-03-12at12.21.02PM_600x.jpg?v=1647086906",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      }
+    },
+    {
+      "id": 2,
+      "title": "Mens Casual Premium Slim Fit Shirts ",
+      "price": 36,
+      "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
+      "category": "men's clothing",
+      "image": "https://img.clasf.in/2021/04/15/Buy-Branded-Casual-Shirts-for-Men-at-Mufti-clothing-20210415082928.2186430015.jpg",
+      "rating": {
+        "rate": 4.1,
+        "count": 259
+      }
     }
   ]
 }

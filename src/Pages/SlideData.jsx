@@ -1,0 +1,22 @@
+export const SlideData = [
+    {
+        image:
+            "https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/SS22/AFpage/Unrec/Headers/MF-770x270.jpg"
+    },
+    {
+        image:
+            "https://images-na.ssl-images-amazon.com/images/G/31/img19/Fashion/WA19/DressStore_Sobe/updates/Double-hero-pink._CB437954636_.jpg"
+    },
+    {
+        image:
+            "https://www.anjalijewellers.in/assets/images/costume-jwellery1.jpg"
+    },
+    {
+        image:
+            "https://image.shutterstock.com/image-vector/equipment-electronics-shop-vector-illustration-260nw-1091103536.jpg"
+    },
+    {
+        image:
+            "https://c8.alamy.com/comp/2AKGT2Y/electronics-and-devices-promotional-sale-banner-with-full-shopping-cart-technology-and-online-shopping-concept-2AKGT2Y.jpg"
+    }
+];

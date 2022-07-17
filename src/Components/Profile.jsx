@@ -22,7 +22,7 @@ const Profile = () => {
                 >
                     <Avatar name='Dan Abrahmov' src='https://bit.ly/dan-abramov' />
                 </MenuButton>
-                <MenuList>
+                <MenuList color={"black"} fontWeight="700">
                     <Link as={RouterLink} to="/products">
                         <MenuItem>Products</MenuItem>
                     </Link>
