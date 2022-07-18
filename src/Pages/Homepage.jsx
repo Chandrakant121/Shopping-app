@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, Heading, Text, Link, Button } from "@chakra-ui/react"
+import { Box, Text, Link, Button } from "@chakra-ui/react"
 import { Link as RouterLink } from "react-router-dom"
 
 import ImageSlider from "./ImageSlider";
@@ -8,7 +8,7 @@ import { SlideData } from "./SlideData";
 
 const Homepage = () => {
     return (
-        <Box backgroundColor={"purple.600"}>
+        <Box backgroundColor={"gray.700"}>
             {/* <Heading as="h1" textAlign="center">Homepage</Heading> */}
             <Box width={"140px"} margin="auto" >
                 <Button marginTop="10px" backgroundColor={"yellow.400"}>

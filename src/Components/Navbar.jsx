@@ -94,7 +94,7 @@ const Navbar = () => {
             <Collapse in={isOpen} animateOpacity>
                 {/* <MobileNav /> */}
             </Collapse>
-        </Box >
+        </Box>
     );
 }
 
