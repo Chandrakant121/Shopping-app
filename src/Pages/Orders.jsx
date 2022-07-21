@@ -7,7 +7,14 @@ import { fetchOrders } from '../Redux/products/action'
 
 const Orders = () => {
     const dispatch = useDispatch()
+
+//useSelector is a function that takes the current state as an argument & returns
+//whatever data you want from it
+
+// It allows you to store the data ypu want inside the variable within the scope.
+
     const orders = useSelector((store) => { return store.ecommerceData.orders })
+
     useEffect(() => {
         dispatch(fetchOrders())
     }, [dispatch])
